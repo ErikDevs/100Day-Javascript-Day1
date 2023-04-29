@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!--- The calculator top screen -->
+        <form name="forms">
+            <input type="text" id="display" name="display" disabled>
+            <div class="buttons">
+                <div class="row">
+                <input type="button" id="d" value="D">
+                <input type="button" id="CE" value="CE">
+                <input type="button" id="nine" value="9">
+                <input type="button" id="minus" value="-">
+                </div>
+
+                <div class="row2">
+                <input type="button" id="eight" value="8">
+                <input type="button" id="seven" value="7">
+                <input type="button" id="six" value="6">
+                <input type="button" id="divide" value="/">
+                </div>
+
+                <div class="row3">
+                <input type="button" id="five" value="5">
+                <input type="button" id="four" value="4">
+                <input type="button" id="three" value="3">
+                <input type="button" id="add" value="+">
+                </div>
+
+                <div class="row4">
+                <input type="button" id="two" value="2">
+                <input type="button" id="one" value="1">
+                <input type="button" id="zero" value="0">
+                <input type="button" id="multiply" value="x">
+                </div>
+                <div class="row5">
+                    
+                    <input type="button" value="CR" class="endrow" id="clear">
+                    <input type="button" value="."  class="endrow" id="dot">
+                    <input type="button" value="="  class="endrow" id="equal">
+                    
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
